@@ -72,7 +72,7 @@ List<Product> products = [
     image: 'assets/image/grysa.jpg',
   ),
   Product(
-    id: 7,
+    id: 8,
     title: 'cherr',
     price: 52,
     decription: loremtext,
