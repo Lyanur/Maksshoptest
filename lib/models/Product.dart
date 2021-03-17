@@ -71,6 +71,14 @@ List<Product> products = [
     weight: 1,
     image: 'assets/image/grysa.jpg',
   ),
+  Product(
+    id: 7,
+    title: 'cherr',
+    price: 52,
+    decription: loremtext,
+    weight: 1,
+    image: 'assets/image/cherr.jpg',
+  ),
 ];
 
 String loremtext =
