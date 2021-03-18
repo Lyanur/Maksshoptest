@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:shoptest/Widget/BodyProduct.dart';
 import 'package:shoptest/page/Category.dart';
-import 'package:shoptest/page/HomePage.dart';
+import 'package:shoptest/page/Product_Page.dart';
 
 // import 'package:flutter/rendering.dart' show debugPaintSizeEnabled;
 
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(),
-      home: Category(),
+      home: ProductList(),
     );
   }
 }
